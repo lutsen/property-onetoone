@@ -1,0 +1,23 @@
+{
+	"name": "lagan/property-onetoone",
+	"type": "library",
+	"description": "Controller for the Lagan one-to-one property. Lets the user define a one-to-one relation between two content objects.",
+	"keywords": ["lagan","many-to-one", "relation","property","controller"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lútsen Stellingwerff",
+			"email": "lutsenstellingwerff@gmail.com",
+			"homepage": "http://www.hoverkraft.nl",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Lagan\\Property\\": "src/"
+        }
+    }
+}
